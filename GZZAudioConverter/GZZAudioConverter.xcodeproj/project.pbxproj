@@ -65,7 +65,7 @@
 		C503CCD920B7F3AE0013CBAF /* GZZAudioConverter */ = {
 			isa = PBXGroup;
 			children = (
-				C503CCF020B7F4730013CBAF /* GZZAudioConverter */,
+				C503CCF020B7F4730013CBAF /* Sources */,
 				C503CCDA20B7F3AE0013CBAF /* AppDelegate.h */,
 				C503CCDB20B7F3AE0013CBAF /* AppDelegate.m */,
 				C503CCDD20B7F3AE0013CBAF /* ViewController.h */,
@@ -79,14 +79,14 @@
 			path = GZZAudioConverter;
 			sourceTree = "<group>";
 		};
-		C503CCF020B7F4730013CBAF /* GZZAudioConverter */ = {
+		C503CCF020B7F4730013CBAF /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				C503CCF720B7F4D30013CBAF /* Lame */,
 				C503CCF320B7F4C70013CBAF /* GZZAudioConverter.h */,
 				C503CCF420B7F4C70013CBAF /* GZZAudioConverter.m */,
 			);
-			path = GZZAudioConverter;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 		C503CCF720B7F4D30013CBAF /* Lame */ = {
