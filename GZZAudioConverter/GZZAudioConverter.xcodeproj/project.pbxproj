@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C503CCDC20B7F3AE0013CBAF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C503CCDB20B7F3AE0013CBAF /* AppDelegate.m */; };
+		C503CCDF20B7F3AE0013CBAF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C503CCDE20B7F3AE0013CBAF /* ViewController.m */; };
+		C503CCE220B7F3AE0013CBAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C503CCE020B7F3AE0013CBAF /* Main.storyboard */; };
+		C503CCE420B7F3AF0013CBAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C503CCE320B7F3AF0013CBAF /* Assets.xcassets */; };
+		C503CCE720B7F3AF0013CBAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C503CCE520B7F3AF0013CBAF /* LaunchScreen.storyboard */; };
+		C503CCEA20B7F3AF0013CBAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C503CCE920B7F3AF0013CBAF /* main.m */; };
+		C503CCF620B7F4C70013CBAF /* GZZAudioConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = C503CCF420B7F4C70013CBAF /* GZZAudioConverter.m */; };
+		C503CCFC20B7F56C0013CBAF /* libmp3lame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C503CCFB20B7F56C0013CBAF /* libmp3lame.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C503CCD720B7F3AE0013CBAF /* GZZAudioConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GZZAudioConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C503CCDA20B7F3AE0013CBAF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C503CCDB20B7F3AE0013CBAF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C503CCDD20B7F3AE0013CBAF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C503CCDE20B7F3AE0013CBAF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C503CCE120B7F3AE0013CBAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C503CCE320B7F3AF0013CBAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C503CCE620B7F3AF0013CBAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C503CCE820B7F3AF0013CBAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C503CCE920B7F3AF0013CBAF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C503CCF320B7F4C70013CBAF /* GZZAudioConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZZAudioConverter.h; sourceTree = "<group>"; };
+		C503CCF420B7F4C70013CBAF /* GZZAudioConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZZAudioConverter.m; sourceTree = "<group>"; };
+		C503CCF820B7F5530013CBAF /* lame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lame.h; sourceTree = "<group>"; };
+		C503CCFB20B7F56C0013CBAF /* libmp3lame.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmp3lame.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C503CCD420B7F3AE0013CBAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C503CCFC20B7F56C0013CBAF /* libmp3lame.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C503CCCE20B7F3AE0013CBAF = {
+			isa = PBXGroup;
+			children = (
+				C503CCD920B7F3AE0013CBAF /* GZZAudioConverter */,
+				C503CCD820B7F3AE0013CBAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C503CCD820B7F3AE0013CBAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C503CCD720B7F3AE0013CBAF /* GZZAudioConverter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C503CCD920B7F3AE0013CBAF /* GZZAudioConverter */ = {
+			isa = PBXGroup;
+			children = (
+				C503CCF020B7F4730013CBAF /* GZZAudioConverter */,
+				C503CCDA20B7F3AE0013CBAF /* AppDelegate.h */,
+				C503CCDB20B7F3AE0013CBAF /* AppDelegate.m */,
+				C503CCDD20B7F3AE0013CBAF /* ViewController.h */,
+				C503CCDE20B7F3AE0013CBAF /* ViewController.m */,
+				C503CCE020B7F3AE0013CBAF /* Main.storyboard */,
+				C503CCE320B7F3AF0013CBAF /* Assets.xcassets */,
+				C503CCE520B7F3AF0013CBAF /* LaunchScreen.storyboard */,
+				C503CCE820B7F3AF0013CBAF /* Info.plist */,
+				C503CCE920B7F3AF0013CBAF /* main.m */,
+			);
+			path = GZZAudioConverter;
+			sourceTree = "<group>";
+		};
+		C503CCF020B7F4730013CBAF /* GZZAudioConverter */ = {
+			isa = PBXGroup;
+			children = (
+				C503CCF720B7F4D30013CBAF /* Lame */,
+				C503CCF320B7F4C70013CBAF /* GZZAudioConverter.h */,
+				C503CCF420B7F4C70013CBAF /* GZZAudioConverter.m */,
+			);
+			path = GZZAudioConverter;
+			sourceTree = "<group>";
+		};
+		C503CCF720B7F4D30013CBAF /* Lame */ = {
+			isa = PBXGroup;
+			children = (
+				C503CCFB20B7F56C0013CBAF /* libmp3lame.a */,
+				C503CCF820B7F5530013CBAF /* lame.h */,
+			);
+			path = Lame;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C503CCD620B7F3AE0013CBAF /* GZZAudioConverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C503CCED20B7F3AF0013CBAF /* Build configuration list for PBXNativeTarget "GZZAudioConverter" */;
+			buildPhases = (
+				C503CCD320B7F3AE0013CBAF /* Sources */,
+				C503CCD420B7F3AE0013CBAF /* Frameworks */,
+				C503CCD520B7F3AE0013CBAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GZZAudioConverter;
+			productName = GZZAudioConverter;
+			productReference = C503CCD720B7F3AE0013CBAF /* GZZAudioConverter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C503CCCF20B7F3AE0013CBAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Jonzzs;
+				TargetAttributes = {
+					C503CCD620B7F3AE0013CBAF = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = C503CCD220B7F3AE0013CBAF /* Build configuration list for PBXProject "GZZAudioConverter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C503CCCE20B7F3AE0013CBAF;
+			productRefGroup = C503CCD820B7F3AE0013CBAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C503CCD620B7F3AE0013CBAF /* GZZAudioConverter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C503CCD520B7F3AE0013CBAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C503CCE720B7F3AF0013CBAF /* LaunchScreen.storyboard in Resources */,
+				C503CCE420B7F3AF0013CBAF /* Assets.xcassets in Resources */,
+				C503CCE220B7F3AE0013CBAF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C503CCD320B7F3AE0013CBAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C503CCDF20B7F3AE0013CBAF /* ViewController.m in Sources */,
+				C503CCF620B7F4C70013CBAF /* GZZAudioConverter.m in Sources */,
+				C503CCEA20B7F3AF0013CBAF /* main.m in Sources */,
+				C503CCDC20B7F3AE0013CBAF /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C503CCE020B7F3AE0013CBAF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C503CCE120B7F3AE0013CBAF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C503CCE520B7F3AF0013CBAF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C503CCE620B7F3AF0013CBAF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C503CCEB20B7F3AF0013CBAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C503CCEC20B7F3AF0013CBAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C503CCEE20B7F3AF0013CBAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AV8L8X3T9J;
+				INFOPLIST_FILE = GZZAudioConverter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GZZAudioConverter/GZZAudioConverter",
+					"$(PROJECT_DIR)/GZZAudioConverter/GZZAudioConverter/Lame",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonzzs.GZZAudioConverter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C503CCEF20B7F3AF0013CBAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AV8L8X3T9J;
+				INFOPLIST_FILE = GZZAudioConverter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GZZAudioConverter/GZZAudioConverter",
+					"$(PROJECT_DIR)/GZZAudioConverter/GZZAudioConverter/Lame",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonzzs.GZZAudioConverter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C503CCD220B7F3AE0013CBAF /* Build configuration list for PBXProject "GZZAudioConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C503CCEB20B7F3AF0013CBAF /* Debug */,
+				C503CCEC20B7F3AF0013CBAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C503CCED20B7F3AF0013CBAF /* Build configuration list for PBXNativeTarget "GZZAudioConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C503CCEE20B7F3AF0013CBAF /* Debug */,
+				C503CCEF20B7F3AF0013CBAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C503CCCF20B7F3AE0013CBAF /* Project object */;
+}
